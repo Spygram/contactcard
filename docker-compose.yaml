@@ -8,7 +8,7 @@ services:
     ports:
       - 3200:3200
     container_name: contactapp
-    image: spygram/contactimage:latest
+    image: spygram/contactcardimage:latest
     networks:
       - contact-net
 
