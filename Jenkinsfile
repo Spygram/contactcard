@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials-id')
-        APP_IMAGE = 'spygram/contactcardimagee'
+        APP_IMAGE = 'spygram/contactcardimage'
         IMAGE_TAG = 'latest'
     }
 
